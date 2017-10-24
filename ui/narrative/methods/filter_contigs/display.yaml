@@ -1,0 +1,41 @@
+#
+# define display information
+#
+name: KOVER : Predicting antibiotic resistance
+tooltip: |
+    Predict antibiotic resistance of microbes based on DNA k-mers
+screenshots: []
+
+icon: null
+
+#
+# define a set of similar methods that might be useful to the user
+#
+suggestions:
+    apps:
+        related:
+            []
+        next:
+            []
+    methods:
+        related:
+            []
+        next:
+            []
+
+#
+# Configure the display and description of parameters
+#
+parameters :
+    assembly_input_ref :
+        ui-name : |
+            Assembly or ContigSet
+        short-hint : |
+            Assembly or ContigSet
+    reads_set :
+        ui-name : |
+            Reads set (PE or SE)
+        short-hint : |
+            Reads set
+description : |
+    <p>Kover is an out-of-core implementation of the Set Covering Machine algorithm that has been tailored for genomic biomarker discovery.</p>
